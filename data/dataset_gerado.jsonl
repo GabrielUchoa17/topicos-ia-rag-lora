@@ -1,10 +1,10 @@
-{"Instruction": "What is the name of the book?", "Output": "O alienista"}
-{"Instruction": "What is the name of the email address to contact for help?", "Output": "bibvirt@futuro.usp.br"}
-{"Instruction": "What is happening in the village?", "Output": "People's lives are being disrupted as they face social unrest due to the spread of Simão Bacamarte's theories and increasing scrutiny from authorities."}
-{"Instruction": "What is the main theme of \"O Alienista\" by Machado de Assis?", "Output": "The power, reason, and limits between sanity and insanity."}
-{"Instruction": "What is the title of Chapter IV?", "Output": "Uma Teoria Nova"}
-{"Instruction": "What is the title of Chapter XII?", "Output": "Chapter XII"}
-{"Instruction": "** What was Simão Bacamarte's profession?\n\n**", "Output": "** He was a physician."}
-{"Instruction": "What was King's occupation?", "Output": "Scientist"}
-{"Instruction": "What was the main reason given for choosing D. Evarista?", "Output": "D. Evarista's physical and anatomical conditions were described as first-rate, including easy digestion, regular sleep, good pulse, excellent vision, and suitability to give birth to healthy children."}
-{"Instruction": "What did D. Evarista say about his wife's childbearing?", "Output": "He said he didn't blame her for it."}
+{"Instruction": "Quem é o autor do livro O Alienista?", "Output": "O autor do livro O Alienista é Machado de Assis."}
+{"Instruction": "Qual é o endereço de e-mail fornecido para as pessoas interessadas em ajudar o projeto?", "Output": "O endereço de e-mail fornecido para as pessoas interessadas em ajudar o projeto é <bibvirt@futuro.usp.br>."}
+{"Instruction": "Quem são os principais personagens mencionados na descrição inicial do texto?", "Output": "Na descrição inicial, estão mencionados Simão Bacamarte (o alienista), pessoas antes tidas como normais sendo trancafiadas, nobres, comerciantes e políticos."}
+{"Instruction": "Quem são os verdadeiros loucos segundo Simão Bacamarte?", "Output": "Segundo Simão Bacamarte, os verdadeiros loucos são aqueles que pensam estar sãos."}
+{"Instruction": "Quem ganhou uma casa de oratórios na obra de Machado de Assis?", "Output": "Itaguaí ganhou uma casa de oratórios na obra O Alienista de Machado de Assis."}
+{"Instruction": "Quem é o personagem principal na história?", "Output": "O personagem principal na história é Dr. Ignácio Boticário. Ele é apresentado inicialmente como um médico comum que sofre de paranoia e vê sinais de uma conspiração macabra em todas as coisas ao seu redor."}
+{"Instruction": "Qual é o nome do médico que viveu na vila de Itaguaí durante os tempos remotos?", "Output": "O médico que viveu na vila de Itaguaí foi o Dr. Simão Bacamarte."}
+{"Instruction": "O que aconteceu com o rei após retornar ao Brasil?", "Output": "O rei deixou Coimbra e se mudou para Itaguaí, onde dedicou sua vida inteira à ciência, realizando curas e pesquisando matematicamente."}
+{"Instruction": "Quem era o casado de Simão Bacamarte?", "Output": "O casado de Simão Bacamarte era uma viúva de um juiz."}
+{"Instruction": "Quem é o personagem principal da história?", "Output": "O personagem principal é D. Evarista."}
