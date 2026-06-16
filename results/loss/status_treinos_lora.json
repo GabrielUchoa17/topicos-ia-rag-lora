@@ -1,0 +1,18 @@
+[
+    {
+        "modelo": "tiny_gpt2",
+        "status": "ok"
+    },
+    {
+        "modelo": "tiny_random_gpt2",
+        "status": "ok"
+    },
+    {
+        "modelo": "tiny_random_t5",
+        "status": "ok"
+    },
+    {
+        "modelo": "tiny_t5_random_2",
+        "status": "ok"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "modelo": "tiny_gpt2",
+        "tipo": "causal",
+        "pergunta": "Em qual situação o alienista estava quando o Vigário o conheceu?",
+        "referencia": "O alienista estava jogando peteca na rua quando o Vigário o conheceu.",
+        "resposta_base": "Pergunta: Em qual situação o alienista estava quando o Vigário o conheceu?\nResposta factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+        "resposta_finetuned": "Pergunta: Em qual situação o alienista estava quando o Vigário o conheceu?\nResposta factors factors factors factors factors factors factors stairs stairs stairs stairs stairs stairs stairs stairs"
+    },
+    {
+        "modelo": "tiny_random_gpt2",
+        "tipo": "causal",
+        "pergunta": "Em qual situação o alienista estava quando o Vigário o conheceu?",
+        "referencia": "O alienista estava jogando peteca na rua quando o Vigário o conheceu.",
+        "resposta_base": "Pergunta: Em qual situação o alienista estava quandoooooooooooooooo",
+        "resposta_finetuned": "Pergunta: Em qual situação o alienista estava quandoooooooandandandandandandandandand"
+    },
+    {
+        "modelo": "tiny_random_t5",
+        "tipo": "seq2seq",
+        "pergunta": "Em qual situação o alienista estava quando o Vigário o conheceu?",
+        "referencia": "O alienista estava jogando peteca na rua quando o Vigário o conheceu.",
+        "resposta_base": "",
+        "resposta_finetuned": ""
+    },
+    {
+        "modelo": "tiny_t5_random_2",
+        "tipo": "seq2seq",
+        "pergunta": "Em qual situação o alienista estava quando o Vigário o conheceu?",
+        "referencia": "O alienista estava jogando peteca na rua quando o Vigário o conheceu.",
+        "resposta_base": "",
+        "resposta_finetuned": "MONTMONTMONTMONTMONTMONTMONTMONTMONTMONT"
+    }
+]

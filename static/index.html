@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat - O Alienista</title>
+</head>
+<body>
+    <h1>Chat - O Alienista - LoRA</h1>
+
+    <label>Modelo:</label>
+    <select id="modelo">
+        <option value="tiny_gpt2">Tiny GPT-2</option>
+        <option value="tiny_random_gpt2">Tiny Random GPT-2</option>
+        <option value="tiny_random_t5">Tiny Random T5</option>
+        <option value="flan_t5_small">Flan-T5 Small</option>
+    </select>
+
+    <br><br>
+
+    <label>Pergunta:</label><br>
+    <textarea id="pergunta" rows="4" cols="80">Quem é Simão Bacamarte?</textarea>
+
+    <br><br>
+
+    <button onclick="enviar()">Enviar</button>
+
+    <h2>Resposta:</h2>
+    <pre id="resposta"></pre>
+
+    <script>
+        async function enviar() {
+            const modelo = document.getElementById("modelo").value;
+            const pergunta = document.getElementById("pergunta").value;
+
+            document.getElementById("resposta").innerText = "Carregando...";
+
+            const resp = await fetch("/chat", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({modelo, pergunta})
+            });
+
+            const data = await resp.json();
+            document.getElementById("resposta").innerText = JSON.stringify(data, null, 2);
+        }
+    </script>
+</body>
+</html>
